@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+main()
+{
+	int dice;
+
+	srand(time(0));
+
+	rand();
+
+	dice = rand() % 99 + 1;
+	printf("ÉTÉCÉRÉçÇÕ%dÇ≈Ç∑\n", dice);
+
+
+}
